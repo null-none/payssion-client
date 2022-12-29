@@ -20,12 +20,12 @@ Example
     APP_SECRET = 'APP_SECRET'
     payssion = Payssion(api_key=APP_CLIENT_ID, secrey_key=APP_SECRET, is_livemode=False)
     payssion.create({
-    	'amount' => 1,
-		'currency' => 'USD',
-		'pm_id' => 'alipay_cn',
-		'description' => 'order description',
-		'order_id' => 'your order id',
-		'return_url' => 'your return url'})
+    	'amount: 1,
+	'currency': 'USD',
+	'pm_id': 'alipay_cn',
+	'description': 'order description',
+	'order_id': 'your order id',
+	'return_url': 'your return url'})
 
 =======
 Donation
